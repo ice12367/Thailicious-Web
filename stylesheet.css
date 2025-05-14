@@ -1,0 +1,70 @@
+body {
+ margin: 0%;
+padding: 0%;   
+   background-color: rgba(145, 93, 93, 0.623);
+   
+
+   font-family: "Nunito Sans", sans-serif;
+  
+}
+ ul {
+    margin: 0%;
+padding: 0%;   
+}
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+
+}
+li:hover {
+    background-color:rgb(209, 44, 44);
+}
+ 
+ .navlinks {
+     background-color:rosybrown;
+     color: azure;
+     text-align: center;
+     font-size: 1.2rem; 
+    }
+ .imagebanner{
+    background-image: url("images/o-crop-u4702.jpg");
+    padding: 50px 0;
+    background-size: cover;
+    background-position: 50% 40%;
+    background-color: blanchedalmond;
+
+ }
+ h2 {
+    text-align: center;
+    color: gray;
+    background-color: blanchedalmond;
+
+
+ }
+ .FoodSection{
+    text-align: center;
+    color: rgb(78, 39, 39);
+    font-size: 1.5rem;
+ }
+img {
+   width: 200px;
+   height: 200px;
+}
+.ourgames {
+   text-align: center;
+   margin: 32px
+}
+.Thai {
+   width: 500px;
+}
+
+@media screen and (min-width: 700px ) {
+   ul {
+       text-align: right;
+   }
+  .navlinks  li {
+      display: inline-block;
+       border-bottom: 0px;
+       border-left: 1px solid black;
+   }
+}
